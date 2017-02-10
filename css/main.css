@@ -61,3 +61,15 @@ h4 {
 	text-align: center;
 	font-weight: bold;
 }
+
+
+input{
+	margin-left: none;
+	padding-left: none;
+}
+.banderas img{
+	width: 13px !important;
+    height: 8px !important;
+	padding: none;
+	margin: none;
+}
