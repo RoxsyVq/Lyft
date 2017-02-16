@@ -2,46 +2,64 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="map/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="map/css/main.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-
-	<title>Register of number</title>
+	<link href="http://bootstrapformhelpers.com/assets/css/bootstrap-formhelpers.min.css" rel="stylesheet">
+  <title>International Telephone Input</title>
+  <link rel="stylesheet" href="map/build/css/intlTelInput.css">
+  <link rel="stylesheet" href="map/build/css/demo.css">
 </head>
+
 <body>
-	<div class="container">
+  <div class="container">
 		<div class="row">
 		<div class="col-xs-10  col-xs-offset-1">
 			<div class="col-xs-2">
-				<a href=""><i class="glyphicon glyphicon-chevron-left"></i></a>
+				<a href="index.html"><i class="glyphicon glyphicon-chevron-left"></i></a>
 			</div>
 			<div class="col-xs-8">
-				<h2 class="title-n">Sign up</h2>
+				<h1 class="title-n">Sign up</h1>
+				<h5 class="text-center">Join now free ride credit</h5>
 			</div>
 		
 			
 		</div>
-		
-		
-			
+				
 			<div class="row">
 				<div class="col-xs-10 col-xs-offset-1">
-				<hr>
-				<div class="input-group">
-    			<span class="input-group-addon banderas"><img class="banderas" src="img/pe.png" alt=""></a></span>
-    				<input type="text" class="form-control" id="inputGroupSuccess1" value="+51"type="text" placeholder="994416627" aria-describedby="inputGroupSuccess1Status">
-					</div>
-					<br> <br> <br>  <br>
-				
-				<div class="boton ">
-					<button class="next btn btn-primary btn-lg btn-block" >Next</button>
-				</div>
-				
+					<hr>
+  
+					  <form>
+						<input id="phone" type="tel"  type="text" class="form-control tel" id="inputGroupSuccess1" value="+51"type="text" >
+						<h5 class="text-center">we'll send a text to verify your phone</h5>
+								<br> <br> <br>
+						<div class="fdfd">
+						<a href="login.html"><div type="" class="next btn btn-primary btn-lg btn-block">Next</div></a>
+						</div>
+					  </form>
+  
 				</div>
 			</div>
-		</div>
+	  </div>
 	</div>
-	
+			
+		
+				
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="map/build/js/intlTelInput.js"></script>
+  <script>
+    $("#phone").intlTelInput({
+      
+      utilsScript: "build/js/utils.js"
+    });
+  
+	</script>
+			
+				
+<script src="http://bootstrapformhelpers.com/assets/js/bootstrap-formhelpers.min.js" defer=""></script>
 </body>
+
 </html>
